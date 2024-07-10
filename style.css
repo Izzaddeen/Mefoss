@@ -1,0 +1,144 @@
+body {
+    font-family: 'PT Serif', serif;
+    line-height: 1.8;
+    margin: 0;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Concert+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Concert+One&family=Francois+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Chivo:ital,wght@0,100..900;1,100..900&family=Concert+One&family=Francois+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* NAVBAR *//* NAVBAR *//* NAVBAR *//* NAVBAR *//* NAVBAR *//* NAVBAR */
+
+
+/* .home-nav {
+    height: 100%;
+    background-image: url("./images/6243378.jpg");  
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.navbar{
+   background: black;
+   backdrop-filter: blur(10px);
+}
+/* .navbar-logo{
+    font-family: "Concert One";
+    color: rgb(56,239,216);
+    color: linear-gradient(90deg, rgba(56,239,216,1) 0%, rgba(7,167,132,1) 35%, rgba(18,178,210,1) 98%);
+    letter-spacing: 3px;
+    font-size: 2rem;
+    text-decoration: none;
+    padding-left: 3%;
+} */
+.navbar-logo span{
+    color: rgb(219, 32, 32);
+}
+.navbar-logo:hover{
+    color: rgb(56,239,216);
+}
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    gap: 3%;   
+}
+.navbar-nav.nav-item {
+    display: inline-flex;
+    justify-content: center; 
+}
+.nav-link{
+    color: white;
+    font-family: "Concert One", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*HOME*//*HOME*//*HOME*//*HOME*/
+.HOME{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+.home-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0 0 10%;
+}
+/* ABOUT */
+/* ABOUT */
+.about-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-span{
+    color:blue;
+}
+.about-h1{
+    font-family: "Acme";   
+    font-weight: bold; 
+    font-size: 2rem;
+    text-align: center;
+}
+.about-p{
+    font-family: "Acme";    
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.services-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+
+
+/* CONTACT */
+/* CONTACT */
+.contact-con {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-h2{
+    text-align: center;
+}
+.form-group{
+    padding-top: 1%;
+}
+.label{
+    padding-bottom: 1%;
+}
