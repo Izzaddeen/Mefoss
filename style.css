@@ -27,29 +27,11 @@ body {
 
 /* NAVBAR *//* NAVBAR *//* NAVBAR *//* NAVBAR *//* NAVBAR *//* NAVBAR */
 
-
-/* .home-nav {
-    height: 100%;
-    background-image: url("./images/6243378.jpg");  
-    height: 90vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
 .navbar{
    background: black;
    backdrop-filter: blur(10px);
 }
-/* .navbar-logo{
-    font-family: "Concert One";
-    color: rgb(56,239,216);
-    color: linear-gradient(90deg, rgba(56,239,216,1) 0%, rgba(7,167,132,1) 35%, rgba(18,178,210,1) 98%);
-    letter-spacing: 3px;
-    font-size: 2rem;
-    text-decoration: none;
-    padding-left: 3%;
-} */
+
 .navbar-logo span{
     color: rgb(219, 32, 32);
 }
@@ -83,15 +65,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10% 0 0 10%;
+    padding: 10% 0 0 60%;
+    /* width: 50%; */
 }
 /* ABOUT */
 /* ABOUT */
-.about-con{
+/* .about-con{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 .about-span{
     color:blue;
 }
@@ -103,7 +86,7 @@ body {
 }
 .about-p{
     font-family: "Acme";    
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: justify;
 }
 
@@ -142,3 +125,4 @@ body {
 .label{
     padding-bottom: 1%;
 }
+
